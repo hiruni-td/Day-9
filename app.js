@@ -110,9 +110,19 @@
 
 const nameList = ["saman","kamal","sunil","wimal"];
 
-nameList.forEach((cName)=>{
-    console.log(cName);
-});
+nameList.forEach(cName=> console.log(cName));
+
+// let funLoop = (cName)=>{
+//     console.log(cName);
+    
+// }
+// nameList.forEach(funLoop);
+
+// nameList.forEach(cName=> console.log(cName));
+
+// nameList.forEach((cName)=>{
+//     console.log(cName);
+// });
 
 // for( let cName of nameList)
 //     console.log(cName);
