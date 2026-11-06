@@ -47,7 +47,10 @@ const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 
 // console.log(numbers.toSorted());
 
-console.log(numbers.length);
+// console.log(numbers.length);
+
+numbers.unshift(500);
+console.log(numbers);
 
 
 
