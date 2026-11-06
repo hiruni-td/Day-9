@@ -43,5 +43,5 @@ const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
 // numbers.pop();
 // console.log(numbers);
 
-console.log(numbers.toReversed());
+// console.log(numbers.toReversed());
 
