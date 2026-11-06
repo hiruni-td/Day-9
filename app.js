@@ -31,10 +31,18 @@
 // }
 
 const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
-console.log(numbers[6]);
+// console.log(numbers[6]);
 
-numbers[numbers.length-1] = 100;
+// numbers[numbers.length-1] = 100;
 
+// console.log(numbers);
+
+numbers.push(90);
 console.log(numbers);
+
+// numbers.pop();
+// console.log(numbers);
+
+
 
 
