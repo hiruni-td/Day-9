@@ -30,7 +30,7 @@
 //     document.getElementById("lblDisplay").innerText = calVal;
 // }
 
-const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
+// const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 // console.log(numbers[6]);
 
 // numbers[numbers.length-1] = 100;
@@ -57,20 +57,54 @@ const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 
 //  console.log(numbers.indexOf(36));
 
-function replaceNumber(){
+// function replaceNumber(){
 
-    let oldNum = document.getElementById("oldNumber").value;
-    let newNum = document.getElementById("newNumber").value;
+//     let oldNum = document.getElementById("oldNumber").value;
+//     let newNum = document.getElementById("newNumber").value;
 
-    let index = numbers.indexOf(Number(oldNum));
+//     let index = numbers.indexOf(Number(oldNum));
 
-    numbers[index] = newNum;
+//     numbers[index] = newNum;
 
-    console.log(numbers);
+//     console.log(numbers);
 
-    // document.getElementById("oldNumber").value = newNum;
+//     // document.getElementById("oldNumber").value = newNum;
     
+// }
+
+// ---------------------------step 01
+
+// function getSum(num1, num2){
+//     return num1 + num2;
+
+// }
+
+// ------------------------------step 02
+
+let getSum = function(num1, num2){
+    return num1 + num2;
+
 }
+
+// ---------------------------------step 03
+
+// let getSum = (num1, num2) =>{
+//     return num1 + num2;
+
+// }
+
+// -----------------------------------step 04
+
+// let getSum = num1 =>{
+//     return num1;
+
+// }
+
+// -------------------------------------step 05
+
+// let getSum = num1 => num1;
+
+console.log(getSum(10, 20));
 
 
 
