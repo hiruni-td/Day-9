@@ -81,10 +81,10 @@
 
 // ------------------------------step 02
 
-let getSum = function(num1, num2){
-    return num1 + num2;
+// let getSum = function(num1, num2){
+//     return num1 + num2;
 
-}
+// }
 
 // ---------------------------------step 03
 
@@ -104,7 +104,20 @@ let getSum = function(num1, num2){
 
 // let getSum = num1 => num1;
 
-console.log(getSum(10, 20));
+// console.log(getSum(10, 20));
+
+//---------------------------------------------
+
+const nameList = ["saman","kamal","sunil","wimal"];
+
+nameList.forEach((cName)=>{
+    console.log(cName);
+});
+
+// for( let cName of nameList)
+//     console.log(cName);
+    
+
 
 
 
