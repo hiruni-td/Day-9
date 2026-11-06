@@ -40,9 +40,8 @@ const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
 // numbers.push(90);
 // console.log(numbers);
 
-numbers.pop();
-console.log(numbers);
+// numbers.pop();
+// console.log(numbers);
 
-
-
+console.log(numbers.toReversed());
 
