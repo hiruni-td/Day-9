@@ -59,14 +59,16 @@ const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 
 function replaceNumber(){
 
-    let oldNum = document.getElementById("oldNumber").value;
-    let newNum = document.getElementById("newNumber").value;
+    let oldNum = Number(document.getElementById("oldNumber").value);
+    let newNum = Number(document.getElementById("newNumber").value);
 
     let index = numbers.indexOf(oldNum);
 
     numbers[index] = newNum;
 
     console.log(numbers);
+
+    document.getElementById("oldNumber").value = newNum;
     
 }
 
