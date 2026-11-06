@@ -62,13 +62,13 @@ function replaceNumber(){
     let oldNum = Number(document.getElementById("oldNumber").value);
     let newNum = Number(document.getElementById("newNumber").value);
 
-    let index = numbers.indexOf(oldNum);
+    let index = numbers.indexOf(Number(oldNum));
 
     numbers[index] = newNum;
 
     console.log(numbers);
 
-    document.getElementById("oldNumber").value = newNum;
+    // document.getElementById("oldNumber").value = newNum;
     
 }
 
