@@ -45,7 +45,10 @@ const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 
 // console.log(numbers.toReversed()); 
 
-console.log(numbers.toSorted());
+// console.log(numbers.toSorted());
+
+console.log(numbers.length);
+
 
 
 
