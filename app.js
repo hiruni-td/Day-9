@@ -55,7 +55,8 @@ const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 // numbers.shift();
 // console.log(numbers);
 
-console.log(numbers.indexOf());
+//  console.log(numbers.indexOf(36));
+
 
 
 
