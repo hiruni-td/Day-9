@@ -30,7 +30,7 @@
 //     document.getElementById("lblDisplay").innerText = calVal;
 // }
 
-const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
+const numbers = [10, 15, 12, 50, 53, 11, 36, 40, 100];
 // console.log(numbers[6]);
 
 // numbers[numbers.length-1] = 100;
@@ -43,5 +43,11 @@ const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
 // numbers.pop();
 // console.log(numbers);
 
-// console.log(numbers.toReversed());
+// console.log(numbers.toReversed()); 
+
+console.log(numbers.toSorted());
+
+
+
+
 
