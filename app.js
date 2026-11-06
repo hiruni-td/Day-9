@@ -37,11 +37,11 @@ const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
 
 // console.log(numbers);
 
-numbers.push(90);
-console.log(numbers);
-
-// numbers.pop();
+// numbers.push(90);
 // console.log(numbers);
+
+numbers.pop();
+console.log(numbers);
 
 
 
