@@ -108,7 +108,7 @@
 
 //---------------------------------------------
 
-const nameList = ["saman","kamal","sunil","wimal"];
+// const nameList = ["saman","kamal","sunil","wimal"];
 
 // nameList.forEach(cName=> console.log(cName));
 
@@ -136,8 +136,40 @@ const nameList = ["saman","kamal","sunil","wimal"];
 // const newSalaryAr = empSalary.map(salary=>salary*2);
 // console.log(newSalaryAr);
 
-const newNameAr = nameList.map(name=> " Welcome " + name );
-console.log(newNameAr);
+// const newNameAr = nameList.map(name=> " Welcome " + name );
+// console.log(newNameAr);
+
+const productList = [
+    {
+        id:1,
+        name:"Bun",
+        price:350,
+    
+    },
+    {
+        id:2,
+        name:"Car",
+        price:750,
+    },
+    {
+        id:3,
+        name:"Milk",
+        price:820,
+    },
+    {
+        id:4,
+        name:"Rice",
+        price:1280,
+    },
+    
+]
+
+const newAr = productList.map(product=>({product,price:product.price*1.15}));
+console.log(newAr);
+
+
+
+
 
 
 
