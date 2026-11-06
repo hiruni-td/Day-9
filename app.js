@@ -108,9 +108,9 @@
 
 //---------------------------------------------
 
-const nameList = ["saman","kamal","sunil","wimal"];
+// const nameList = ["saman","kamal","sunil","wimal"];
 
-nameList.forEach(cName=> console.log(cName));
+// nameList.forEach(cName=> console.log(cName));
 
 // let funLoop = (cName)=>{
 //     console.log(cName);
@@ -126,6 +126,22 @@ nameList.forEach(cName=> console.log(cName));
 
 // for( let cName of nameList)
 //     console.log(cName);
+
+const empSalary = [75000,30000,25000,90000,150000];
+
+// empSalary.forEach(eSalary=>console.log(eSalary*2));
+
+// console.log(empSalary.map(salary=>salary*2));
+
+const newSalaryAr = empSalary.map(salary=>salary*2);
+console.log(newSalaryAr);
+
+
+
+
+
+
+
     
 
 
