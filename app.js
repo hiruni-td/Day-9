@@ -24,16 +24,17 @@
 
 // console.log(numbers);
 
-
-
-
-    
-
-
 // function getCalValue(){
 //     let txtValue = document.getElementById("txtUserInput").value;
 //     let calVal = eval(txtValue);
-//     document.
-
-
+//     document.getElementById("lblDisplay").innerText = calVal;
 // }
+
+const numbers = [10, 20, 30, 40, 50, 60, 70, 80];
+console.log(numbers[6]);
+
+numbers[numbers.length-1] = 100;
+
+console.log(numbers);
+
+
